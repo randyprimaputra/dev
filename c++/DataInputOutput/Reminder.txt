@@ -1,0 +1,6 @@
+beberapa fungsi input and output 
+
+std::cout   => Mencetak data ke terminal  
+std::cin    => Membaca data dari terminal 
+std::cerr   => Mencetak Errors ke terminal 
+std::clog   => Mencetak Pesan Log ke terminal
