@@ -11,4 +11,6 @@ int main (){
     std::cout << "Number 3 : " << number3 << std::endl;
     std::cout << "Number 4 : " << number4 << std::endl;
 
+    return 0;
+
 }
