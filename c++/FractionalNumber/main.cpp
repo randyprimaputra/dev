@@ -15,7 +15,5 @@ int main(){
     std::cout << "number2 is : " << number2 << std::endl;
     std::cout << "number3 is : " << number3 << std::endl;
 
-
-
     return 0;
 }
