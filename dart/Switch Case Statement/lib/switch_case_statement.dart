@@ -20,7 +20,7 @@ void main(){
       break;
 
     default:
-      print("You have failed !");
+      print("Invalid Grade !");
 
   }
 
