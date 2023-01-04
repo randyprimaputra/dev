@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/String Literal and Interpolation.iml" filepath="$PROJECT_DIR$/String Literal and Interpolation.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/String Literal and Interpolation.iml" filepath="$PROJECT_DIR$/.idea/String Literal and Interpolation.iml" />
+>>>>>>> 2577eee6e5e8e60e5e88c2e8763890ec883825ad
     </modules>
   </component>
 </project>
