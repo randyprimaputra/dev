@@ -1,22 +1,32 @@
 package main
 
 import (
+	"net/url"
+
+	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/widget"
 )
 
 func main() {
 
-	//new app
+	// create new app
 	a := app.New()
 
-	// new window
-	w := a.NewWindow(" tittle bar")
+	//creating new window
+	w := a.NewWindow("Hyperlink")
+	w.Resize(fyne.NewSize(400, 400))
 
-	//first widget
-	c := widget.NewLabel("text")
+	//creat url
+	url, _ := url.Parse("https://randyprimaputra.my.id")
 
-	w.SetContent(c)
+	//hyperlink widget
+	hyperlink := widget.NewHyperlink("Visit me", url)
 
+	//setup content
+	w.SetContent(hyperlink)
+
+	//show and run
 	w.ShowAndRun()
+
 }
