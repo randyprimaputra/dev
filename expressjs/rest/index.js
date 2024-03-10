@@ -7,6 +7,7 @@ app.get('/order', (req,res)=>{
 });
 
 app.post('/order', (req,res)=>{
+    console.log(req.body)
     res.send('POST order response')
 });
 
